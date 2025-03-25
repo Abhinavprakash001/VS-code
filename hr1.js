@@ -1,4 +1,9 @@
-let age=19;
-let canvote=(age>18);
+function sum(a,b) {
+    let totalsum=a+b;
+    return totalsum;
+}
+let ans=sum(1,2);
+let ans1=sum(2,4);
 
-console.log(canvote);
+console.log(ans);
+console.log(ans1);
